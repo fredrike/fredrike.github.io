@@ -2,8 +2,11 @@
 layout: default
 ---
 
-Fredrik Erlandsson is a Lecturer in Computer Science at Blekinge Institute of Technology, Sweden. Fredrik’s research contains a huge amount of data from social media such as Facebook and Twitter etc. He focused on how to understand the behaviors online and further on to predict different online behaviors. Fredrik has been doing his research within the project environment of [BigData@BTH](https://a.bth.se/bigdata/).
+Fredrik Erlandsson is an Assistant Professor in Computer Science the Department of Computer Science and Engineering at Blekinge Institute of Technology (BTH) in Sweden. Fredrik’s research contains a huge amount of data from social media such as Facebook and Twitter etc. He's research have focused on how to understand the users online behaviors, and further on to predict different behaviors. This have been done by modeling the behaviors on social media into interaction networks, which enable network-based and graph-based methods to model and understand the users' behaviors. Fredrik is currently working with the project environment of [BigData@BTH](https://a.bth.se/bigdata/).
 
+
+## Research summary
+---
 Social media provides users with services that enable them to interact both globally and instantly. The behaviors on social media can be modeled into interaction networks, which enable network-based and graph-based methods to model and understand the user behaviors.
 
 An additional contribution from the research conducted is that a novel method of crawling that extracts all social interactions from Facebook is presented. They have collected 280 million posts in this research from public pages on Facebook using this crawling method. All this from 700 million users. With all this data it’s possible to illustrate interactions between different users.
