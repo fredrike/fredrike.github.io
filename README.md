@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Fredrik Erlandsson is an Assistant Professor in Computer Science the Department of Computer Science and Engineering at Blekinge Institute of Technology (BTH) in Sweden. Fredrik’s research contains a huge amount of data from social media such as Facebook and Twitter etc. He's research have focused on how to understand the users online behaviors, and further on to predict different behaviors. This have been done by modeling the behaviors on social media into interaction networks, which enable network-based and graph-based methods to model and understand the users' behaviors. Fredrik is currently working with the project environment of [BigData@BTH](https://a.bth.se/bigdata/).
+Fredrik Erlandsson is an Assistant Professor in Computer Science at the [Department of Computer Science](https://www.bth.se/eng/about-bth/organisation/faculty-of-computing/dida/) at Blekinge Institute of Technology (BTH) in Sweden. Fredrik’s research contains a huge amount of data from social media such as Facebook and Twitter etc. He's research have focused on how to understand the users online behaviors, and further on to identify influential users. This have been done by modeling the behaviors on social media into interaction networks, which enable network-based and graph-based methods to model and understand the users' behaviors. Fredrik is currently working with the project environment of [BigData@BTH](https://a.bth.se/bigdata/).
 
 
 ## Research summary
@@ -27,11 +27,12 @@ Finally, the privacy-related consequences of posting online is an important area
 
 # Media attention
 ---
+* Risker finns med datainsamling från smarta högtalare, *Sveriges Radio P4 Blekinge* — local radio, March. 2019. 
 * Fredriks Facebook-relaterade forskning fick Säpo på fötter, *Universitetsläraren* — newspaper article, May 2018. 
 * Forskare: Så lätt är det att hämta information från Facebook, *Sveriges Radio Vetenskaps Radion* — national radio, May 2018. 
 * [Scholars Have Data on Millions of Facebook Users. Who’s Guarding It?](https://www.nytimes.com/2018/05/06/technology/facebook-information-data-sets-academics.html), *New York Times* — (republished in Bend Bulletin, Australian Financial Review, San Francisco Chronicle, Business Times Singapore, Laredo Morning Times, MySanAntonio), May 2018. 
 * Åhusforskare hittar nättroll, *Kristianstadsbladet* — newspaper article, Jan. 2018. 
-* Nytt datasystem kan hitta terrorister på Facebook", *SVT Blekinge* — local tv Jan. 2018. 
+* Nytt datasystem kan hitta terrorister på Facebook", *SVT Blekinge* — local tv, Jan. 2018. 
 * Han hittar trollen på nätet, *Sydöstran* — newspaper article, Jan. 2018. 
 * Kartlägger Facebook-vanor, *Blekinge Läns Tidning* — newspaper article, Jan. 2018. 
 * BTH-forskare hittar terrorister på Facebook, *Blekinge Läns Tidning* — newspaper article, Jan. 2018. 
