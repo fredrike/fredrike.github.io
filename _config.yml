@@ -30,11 +30,10 @@ urls:
       url: /publications.html
     - text: Teaching
       url: /teaching.html
-    #- text: Projects
-    #  url: /projects.html
-    # - text: CV
-    #  url: /cv
-      # url: /CV/cv.pdf
+    - text: Projects
+      url: /projects.html
+    - text: CV
+      url: /FredrikErlandsson.pdf
     # - text: Interesting links
     #  url: /links
 
