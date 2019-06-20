@@ -16,6 +16,8 @@ Together with the more theoretical part of the Computer Network courses I also d
 ---
 Below is a list of courses I've been teaching over the last few years.
 
+### 2019
+ * Database systems
 
 ### 2018
  * Database systems
@@ -57,11 +59,15 @@ Below is a list of courses I've been teaching over the last few years.
 
 ## Supervised thesises
 ---
-* Güven, V (2018), "Patterns of malware and digital attacks"
-* Rylander, J., and Moberg, J. (2018), "Automated Key Rotations In a Continuous Deployment Pipeline".
+* Gustafsson J., and Törnkvist A. (2019), "Secure handling of encryption keys for small businesses - A comparative study of key management systems".
+* Björkman A., and Kardos M. (2019), "Threat Analysis of Smart Home Assistants Involving Novel Acoustic Based Attack-Vectors".
+* Tulek Z., and Arnell L. (2019), "Facebook Eavesdropping Through the Microphone for Marketing Purpose". 
+* Gribing Arlfors C., and Nilsson S. (2019), "Tracking the cookies - A quantitative study on user perceptions about online tracking".
+* Güven V. (2018), "Patterns of malware and digital attacks".
+* Rylander J., and Moberg J. (2018), "Automated Key Rotations In a Continuous Deployment Pipeline".
 * Karlsson R. (2018), "Using the blockchain for botnet Command & Control".
-* Dimitriou, J. (2017), "Hot or Not - Exploratory Study on Viral Content on Online Social Media".
-* Ekhator, S. (2010), "Evaluating Kismet and NetStumbler as Network Security Tools & Solutions".
-* Chetachi, U. (2009), "Security and Performance Analysis of Topology-Based Intrusion Detection System  in Ad Hoc Networks".
-* Nwabude, A. (2008), "Wireless Local Area Network (WLAN) : Security Risk Assessment and Countermeasures".
-* Onoabhagbe, S. (2008), "Zigbee versus Radio Frequency Identification (RFID)".
+* Dimitriou J. (2017), "Hot or Not - Exploratory Study on Viral Content on Online Social Media".
+* Ekhator S. (2010), "Evaluating Kismet and NetStumbler as Network Security Tools & Solutions".
+* Chetachi U. (2009), "Security and Performance Analysis of Topology-Based Intrusion Detection System  in Ad Hoc Networks".
+* Nwabude A. (2008), "Wireless Local Area Network (WLAN) : Security Risk Assessment and Countermeasures".
+* Onoabhagbe S. (2008), "Zigbee versus Radio Frequency Identification (RFID)".
