@@ -13,7 +13,21 @@ collections:
     order:
       - intro.md
       - publications.md
-      - teaching.md
+      - teaching_portfolio.md
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "page"
+    values:
+      layout: default
+  -
+    scope:
+      path: ""
+      type: "academia" # a collection in your site, in plural form
+    values:
+      layout: academia
 
 social:
     - icon: fab fa-twitter
@@ -35,6 +49,8 @@ share:
   twitter_username: fredrikerl 
 
 urls:
+    - text: Home
+      url: /
     - text: Academia
       url: /academia/
     - text: Projects

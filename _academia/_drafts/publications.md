@@ -1,6 +1,3 @@
----
-layout: academia
----
 <!-- https://libguides.murdoch.edu.au/APA/home -->
 
 ## Journals
