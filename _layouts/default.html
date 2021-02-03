@@ -14,18 +14,40 @@
 
         <div class="social">
           <ul>
+            {%- if page.collection == "academia" %}{% for link in site.academic_social %}
+              <li><a href="{{ link.link }}" target="_blank"><i class="{{ link.icon }}"></i></a></li>
+            {%- endfor %}{% endif -%}
             {% for link in site.social %}
               <li><a href="{{ link.link }}" target="_blank"><i class="{{ link.icon }}"></i></a></li>
-            {% endfor %}
+            {%- endfor %}
           </ul>
         </div>
 
         <ul class="sidebar-nav">
           <strong>Navigation</strong>
-          <li><a href="/">Home</a></li>
-          {% for i in site.urls %}
-            <li><a class="about" href="{{ i.url }}">{{ i.text }}</a></li>
-          {% endfor %}
+          {%- for i in site.urls %}
+          <li>
+              {%- if i.url == page.url -%}
+                {{ i.text }}
+              {%- else -%}
+                <a class="about" href="{{ i.url | absolute_url}}">{{ i.text }}</a>
+              {%- endif -%}
+              {%- assign txt = i.text | downcase %}
+              {%- if txt == page.collection %}
+                <ul style="margin: 0px 0px 0px -26px;">
+                {%- for j in site[page.collection] %}
+                  <li>
+                  {%- if j.url == page.url -%}
+                    {{ j.title }}
+                  {%- else -%}
+                    <a class="about" href="{{ j.url | absolute_url }}">{{ j.title }}</a>
+                  {%- endif -%}
+                  </li>
+                {%- endfor %}
+                </ul>
+              {%- endif -%}
+          </li>
+          {%- endfor %}
         </ul>
 
       </header>

@@ -1,6 +1,7 @@
 ---
-layout: academia
 title: Academic expericence
+layout: academia
+collection: academia
 ---
 
 I have worked as Assistant Professor in Computer Science at the [Department of Computer Science](https://www.bth.se/eng/about-bth/organisation/faculty-of-computing/dida/) at Blekinge Institute of Technology (BTH) in Sweden until summer 2020. My research contains a huge amount of data from social media such as Facebook and Twitter etc. The research have focused on how to understand the users online behaviors, and further on to identify influential users. This have been done by modeling the behaviors on social media into interaction networks, which enable network-based and graph-based methods to model and understand the users' behaviors.
