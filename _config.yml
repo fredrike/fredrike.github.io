@@ -1,6 +1,6 @@
 title: Fredrik Erlandsson
 logo: /assets/img/fer.jpg
-description: PhD in Computer science. 
+description: PhD in Computer science, data scientist at Consid AB.
 show_downloads: false
 google_analytics: UA-13197481-5
 theme: jekyll-theme-minimal
@@ -39,7 +39,7 @@ urls:
       url: /academia/
     - text: Projects
       url: /projects/
-    - text: CV
+    - text: CV (pdf)
       url: /FredrikErlandsson.pdf
     # - text: Interesting links
     #  url: /links

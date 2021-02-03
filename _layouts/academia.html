@@ -29,7 +29,7 @@
           {% for i in site.urls %}
             <li><a class="about" href="{{ i.url }}">{{ i.text }}</a></li>
             {% if i.text == "Academia" %}
-            <ul>
+            <ul style="margin: 0px;">
             {% for i in site.academia %}
               <li><a class="about" href="{{ i.url }}">{{ i.title }}</a></li>
             {% endfor %}
