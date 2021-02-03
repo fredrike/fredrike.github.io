@@ -1,18 +1,21 @@
 title: Fredrik Erlandsson
 logo: /assets/img/fer.jpg
-description: PhD in Computer science. Assistant professor at Blekinge Intstitute of Technology. Research topics includes Network Science and Social Media interactions.
+description: PhD in Computer science. 
 show_downloads: false
 google_analytics: UA-13197481-5
 theme: jekyll-theme-minimal
+permalink: /:categories/:title/
 
+collections:
+  academia:
+    output: true
+    permalink: /:collection/:title/
+    order:
+      - intro.md
+      - publications.md
+      - teaching.md
 
 social:
-    - icon: ai ai-google-scholar ai-1.7x
-      link: "https://scholar.google.se/citations?user=vJjq9LwAAAAJ&h=en"
-    - icon: ai ai-orcid ai-1.7x
-      link: "https://orcid.org/0000-0003-3219-9598"
-    - icon: fas fa-university
-      link: "https://www.bth.se/eng/staff/fredrik-erlandsson-fer/"
     - icon: fab fa-twitter
       link: "https://twitter.com/fredrikerl"
     - icon: fab fa-linkedin
@@ -22,16 +25,20 @@ social:
     - icon: ai ai-cv ai-1.7x
       link: "/FredrikErlandsson.pdf"
 
+academic_social:
+    - icon: ai ai-google-scholar ai-1.7x
+      link: "https://scholar.google.se/citations?user=vJjq9LwAAAAJ&h=en"
+    - icon: ai ai-orcid ai-1.7x
+      link: "https://orcid.org/0000-0003-3219-9598"
+
 share:
   twitter_username: fredrikerl 
 
 urls:
-    - text: Publications
-      url: /publications.html
-    - text: Teaching
-      url: /teaching.html
+    - text: Academia
+      url: /academia/
     - text: Projects
-      url: /projects.html
+      url: /projects/
     - text: CV
       url: /FredrikErlandsson.pdf
     # - text: Interesting links

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: academia
 ---
 
 I started working as a teacher with an Adjunct position at Blekinge Institute of Technology in January 2006. I have been involved in every part of teaching, starting from lab- assistant to course responsible and program manager during these years.

@@ -1,9 +1,9 @@
 ---
-layout: default
+layout: academia
 ---
+I have worked as Assistant Professor in Computer Science at the [Department of Computer Science](https://www.bth.se/eng/about-bth/organisation/faculty-of-computing/dida/) at Blekinge Institute of Technology (BTH) in Sweden until summer 2020. My research contains a huge amount of data from social media such as Facebook and Twitter etc. The research have focused on how to understand the users online behaviors, and further on to identify influential users. This have been done by modeling the behaviors on social media into interaction networks, which enable network-based and graph-based methods to model and understand the users' behaviors. 
 
-Fredrik Erlandsson is an Assistant Professor in Computer Science at the [Department of Computer Science](https://www.bth.se/eng/about-bth/organisation/faculty-of-computing/dida/) at Blekinge Institute of Technology (BTH) in Sweden. Fredrik’s research contains a huge amount of data from social media such as Facebook and Twitter etc. He's research have focused on how to understand the users online behaviors, and further on to identify influential users. This have been done by modeling the behaviors on social media into interaction networks, which enable network-based and graph-based methods to model and understand the users' behaviors. Fredrik is currently working with the project environment of [BigData@BTH](https://a.bth.se/bigdata/).
-
+Research topics includes Network Science and Social Media interactions.
 
 ## Research summary
 ---
@@ -50,7 +50,7 @@ Finally, the privacy-related consequences of posting online is an important area
 --- -->
 I have given invited talks and presentations at the following events:
 
-#### Academic
+## Academic
 -  *Fake news och hotet mot demokratin* Högskolan Kristianstad — invited panel, March 2018, Kristianstad, Sweden.
 -   *Do We Really Need To Catch Them All? A New User-guided Social Media
     Crawling Method*  4th Annual International Conference on
@@ -85,7 +85,7 @@ I have given invited talks and presentations at the following events:
     Amsterdam, Netherlands
 
 
-#### Non academic
+## Non academic
 - *Integritetshot på Sociala medier*, Aktiva seniorer Karlskrona — invited talk, Nov. 2018.
 * *Integritet på Sociala medier*, Sveriges Radio P4 Kristianstad — local radio, March 2018.
 * *Så kan ditt Facebook konto kapas*, Sveriges Radio P4 Blekinge — local radio, March 2018.

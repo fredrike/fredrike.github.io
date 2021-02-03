@@ -14,6 +14,9 @@
 
         <div class="social">
           <ul>
+            {% for link in site.academic_social %}
+              <li><a href="{{ link.link }}" target="_blank"><i class="{{ link.icon }}"></i></a></li>
+            {% endfor %}
             {% for link in site.social %}
               <li><a href="{{ link.link }}" target="_blank"><i class="{{ link.icon }}"></i></a></li>
             {% endfor %}
@@ -25,6 +28,13 @@
           <li><a href="/">Home</a></li>
           {% for i in site.urls %}
             <li><a class="about" href="{{ i.url }}">{{ i.text }}</a></li>
+            {% if i.text == "Academia" %}
+            <ul>
+            {% for i in site.academia %}
+              <li><a class="about" href="{{ i.url }}">{{ i.title }}</a></li>
+            {% endfor %}
+            </ul>
+            {% endif %}
           {% endfor %}
         </ul>
 
