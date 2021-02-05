@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2021-02-05 07:25:56 +0000
+last_modified_at: 2021-02-05 09:13:26 +0000
 title: Statement of Research
 ---
 My main research topic is collection, organization and analysis of Big Data from social media using Machine Learning combined with Complex Networks.
@@ -34,7 +34,6 @@ interaction.
 
 ## Publications
 
-
 <!-- https://libguides.murdoch.edu.au/APA/home -->
 
 ### Journals
@@ -49,13 +48,13 @@ interaction.
 
 Pham, P. D., **Erlandsson, F.**, and Wu, S. F. "Social coordinates: A scalable embedding framework for online social networks". In *Complex Networks & Their Applications VI. COMPLEX NETWORKS 2017. Studies in Computational Intelligence, vol 689. Springer, Cham* (2017), ICMLSC ’17, pages 191–196. ACM, DOI: [doi: 10.1145/3036290.3036298](https://dx.doi.org/10.1145/3036290.3036298).
 
-**Erlandsson, F.**, Nia, R., Boldt, M., Johnson, H., and Wu, S. F. (2015). Crawling Online Social Networks. In *2015 Second European Network Intelligence Conference (ENIC)* (pp. 9-16). IEEE, [doi: 10.1109/ENIC.2015.10](https://doi.org/10.1109/ENIC.2015.10). 
+**Erlandsson, F.**, Nia, R., Boldt, M., Johnson, H., and Wu, S. F. (2015). Crawling Online Social Networks. In *2015 Second European Network Intelligence Conference (ENIC)* (pp. 9-16). IEEE, [doi: 10.1109/ENIC.2015.10](https://doi.org/10.1109/ENIC.2015.10).
 
 Wang, T., **Erlandsson, F.**, and Wu, S. F. (2015). Mining user deliberation and bias in online newsgroups: A dynamic view. In *Proceedings of the 2015 ACM on Conference on Online Social Networks* (pp. 209-219). ACM, [doi: 10.1145/2817946.2817951](https://doi.org/10.1145/2817946.2817951).
 
 Wang, T., Wang, K. C., **Erlandsson, F.**, Wu, S. F., & Faris, R. (2013). The influence of feedback with different opinions on continued user participation in online newsgroups. In *Proceedings of the 2013 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining* (pp. 388-395). ACM, [doi: 10.1145/2492517.2492555](https://doi.org/10.1145/2492517.2492555).
 
-Nia, R., **Erlandsson, F.**, Johnson, H., & Wu, S. F. (2013). Leveraging social interactions to suggest friends. In *Proceedings of the 2013 IEEE 33rd International Conference on Distributed Computing Systems Workshops* (pp. 386-391). IEEE, [doi: 10.1109/icdcsw.2013.93](https://doi.org/10.1109/icdcsw.2013.93). 
+Nia, R., **Erlandsson, F.**, Johnson, H., & Wu, S. F. (2013). Leveraging social interactions to suggest friends. In *Proceedings of the 2013 IEEE 33rd International Conference on Distributed Computing Systems Workshops* (pp. 386-391). IEEE, [doi: 10.1109/icdcsw.2013.93](https://doi.org/10.1109/icdcsw.2013.93).
 
 Nia, R., **Erlandsson, F.**, Bhattacharyya, P., Rahman, M. R., Johnson, H., & Wu, S. F. (2012). Sin: A platform to make interactions in social networks accessible. In *Social Informatics (SocialInformatics), 2012 International Conference on* (pp. 205-214). IEEE. [doi: 10.1109/socialinformatics.2012.29](https://doi.org/10.1109/socialinformatics.2012.29).
 
@@ -75,12 +74,12 @@ Nia, R., **Erlandsson, F.**, Bhattacharyya, P., Rahman, M. R., Johnson, H., & Wu
 
 ### Others
 
-**F. Erlandsson**, P. Bródka, M. Boldt, and H. Johnson, (2018). Do We Really Need To Catch Them All? A New User-guided Social Media Crawling Method. *International Conference on Computational Social Science IC2S2*, Chicago, USA. extended abstract accepted for poster session
+**F. Erlandsson**, P. Bródka, M. Boldt, and H. Johnson, (2018). Do We Really Need To Catch Them All? A New User-guided Social Media Crawling Method. *International Conference on Computational Social Science IC2S2*, Chicago, USA. extended abstract accepted for poster session.
 
-**Erlandsson F.**, Borg A., and Boldt M. (2018). Visualizing modus operandi similarity between burglaries in a city. *NetCrime 2018 3nd Symposium on the Structure and Mobility of Crime*, Paris, France, 2018, extended abstract 
+**Erlandsson F.**, Borg A., and Boldt M. (2018). Visualizing modus operandi similarity between burglaries in a city. *NetCrime 2018 3nd Symposium on the Structure and Mobility of Crime*, Paris, France, 2018, extended abstract.
 
-**Erlandsson F.**, Bródka P., M. Boldt, and H. Johnson, (2018). Do We Really Need To Catch Them All? A New User-guided Social Media Crawling Method”, *NetSci 2018 International School and Conference on Network Science*, Paris, France, extended abstract accepted for poster session 
+**Erlandsson F.**, Bródka P., M. Boldt, and H. Johnson, (2018). Do We Really Need To Catch Them All? A New User-guided Social Media Crawling Method”, *NetSci 2018 International School and Conference on Network Science*, Paris, France, extended abstract accepted for poster session
 
-**F. Erlandsson**, P. Bródka, and A. Borg, (2018). Seed selection for information cascade in multilayer network”, *NetSci 2018 International School and Conference on Network Science*, Paris, France, extended abstract accepted for poster session 
+**F. Erlandsson**, P. Bródka, and A. Borg, (2018). Seed selection for information cascade in multilayer network”, *NetSci 2018 International School and Conference on Network Science*, Paris, France, extended abstract accepted for poster session.
 
-**Erlandsson, F**, (2017). Replication Data for: Do We Really Need To Catch Them All? A New User-guided Social Media Crawling Method, *Harvard Dataverse*, V1, [doi:10.7910/DVN/DCBDEP](https://doi.org/10.7910/DVN/DCBDEP), UNF:6:rAWT7zGxHr6jKXil93DLXA==
+**Erlandsson, F**, (2017). Replication Data for: Do We Really Need To Catch Them All? A New User-guided Social Media Crawling Method, *Harvard Dataverse*, V1, [doi:10.7910/DVN/DCBDEP](https://doi.org/10.7910/DVN/DCBDEP), UNF:6:rAWT7zGxHr6jKXil93DLXA==.

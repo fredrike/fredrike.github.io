@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2021-02-05 07:26:10 +0000
+last_modified_at: 2021-02-05 09:17:10 +0000
 title: Academic expericence
 layout: academia
 collection: academia
@@ -19,13 +19,6 @@ Furthermore, a proposed method is used and validated for finding initial nodes f
 
 Finally, the privacy-related consequences of posting online is an important area for users to consider. Therefore, mitigating privacy risks contributes to a secure environment and methods to protect user privacy are presented.
 
-<!-- # News
----
-* March '18: [Teaching](teaching.html) database tehniques.
-* June '18: Attended to NetSci 2018 in Paris
-* Jul '18: Attended to IC2S2 2018 in Chicago
-* March '18: [Teaching](teaching.html) database tehniques. -->
-
 ## Media attention
 
 * Risker finns med datainsamling från smarta högtalare, *Sveriges Radio P4 Blekinge* — local radio, March. 2019.
@@ -38,17 +31,8 @@ Finally, the privacy-related consequences of posting online is an important area
 * Kartlägger Facebook-vanor, *Blekinge Läns Tidning* — newspaper article, Jan. 2018.
 * BTH-forskare hittar terrorister på Facebook, *Blekinge Läns Tidning* — newspaper article, Jan. 2018.
 
-<!-- * *BTH-forskare har kartlagt radikalisering - samlat in 35 miljarder gillamarkeringar,  Jan. 2018.
-* newspaper article,”BTH-forskning ska hitta radikaliserade” • Sydöstran Jan. 2018.  -->
-
 ## Invited talks and Presentations
 
-<!-- * "Datainsamling från Sociala medier", Jan, Sveriges Radio P4 Blekinge
-* "Integritet på Sociala medier", 22/3, Sveriges Radio P4 Kristianstad
-* "Så kan ditt Facebook konto kapas", 10/4, Sveriges Radio P4 Blekinge
-* "Fake news och hotet mot demokratin", 11/4, paneldebatt, Högskolan Kristianstad
-* "Integritetshot på Sociala medier", 16/11, Aktiva seniorer Karlskrona
---- -->
 I have given invited talks and presentations at the following events:
 
 ### Academic

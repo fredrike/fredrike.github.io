@@ -1,10 +1,7 @@
 ---
-last_modified_at: 2021-02-05 07:26:02 +0000
+last_modified_at: 2021-02-05 09:08:12 +0000
 title: Teaching Portfolio
 ---
-
-Background
-----------
 
 I have a quite unconventional academic career. I got an offer to start
 working as a Lecturer at Blekinge Institute of Technology after
@@ -30,8 +27,7 @@ teaching is recognized with high ratings both for the pedagogic view and
 for my teaching style. Both students and my colleagues are very happy
 with the courses I have constructed and taught.
 
-Higher Education
-----------------
+## Higher Education
 
 ### Subject specialization
 
@@ -79,8 +75,7 @@ Undervisning och lärande i matematik och teknik 7,5 hp MD1106
     get a permanent position as Adjunct at Blekinge Institute of
     Technology.
 
-Pedagogical Experience
-----------------------
+## Pedagogical Experience
 
 I have been active in various pedagogical activities during my six plus
 years as an Adjunct at Blekinge Institute of Technology and my five
@@ -88,7 +83,7 @@ years as a PhD candidate including *Teaching*, *Thesis
 Supervision*,*Program manager*, and *Designing of teaching
 environments*.
 
-### Teaching
+### Teaching Experience
 
 I started working as a teacher with an Adjunct position at Blekinge
 Institute of Technology in January 2006. I have been involved in every
@@ -246,7 +241,7 @@ The following is a list of the thesises I have supervised.
 
 * Gustafsson J., and Törnkvist A. (2019), "Secure handling of encryption keys for small businesses - A comparative study of key management systems".
 * Björkman A., and Kardos M. (2019), "Threat Analysis of Smart Home Assistants Involving Novel Acoustic Based Attack-Vectors".
-* Tulek Z., and Arnell L. (2019), "Facebook Eavesdropping Through the Microphone for Marketing Purpose". 
+* Tulek Z., and Arnell L. (2019), "Facebook Eavesdropping Through the Microphone for Marketing Purpose".
 * Gribing Arlfors C., and Nilsson S. (2019), "Tracking the cookies - A quantitative study on user perceptions about online tracking".
 * Güven V. (2018), "Patterns of malware and digital attacks".
 * Rylander J., and Moberg J. (2018), "Automated Key Rotations In a Continuous Deployment Pipeline".
@@ -281,8 +276,7 @@ students, and when faced with the more traditional arrangement it seems
 highly preferable. Mostly as my configuration allows students more
 direct access to the lab-equipment than the traditional configuration.
 
-Pedagogical Approach
---------------------
+## Pedagogical Approach
 
 My pedagogical approach is that I as teacher should be able to act more
 as a coach, aiding the students with suggestions and directions on how
@@ -298,7 +292,7 @@ lectures. These "live-hacks" are welcomed breaks from the traditional
 lectures where I demonstrate short code segments and various
 configuration approaches.
 
-### Teaching
+### Teaching Approach
 
 My teaching is based much upon observations from colleagues on how to
 give good lectures. The observations I have made suggest that a very
@@ -330,7 +324,7 @@ writing on a computer than with pen and paper. My vision is that this
 will take off the load from the student during the stressfulness of
 writing by letting them write through a computer.
 
-### Supervising
+### Supervising Approach
 
 I am focusing on guidance and support when it comes to supervising
 students in thesis work. I am giving the students directions and
@@ -362,8 +356,7 @@ content. A very successful approach is to give blended lectures, i.e.
 give lectures that mix the theoretical concepts with practical exercises
 and demonstrations.
 
-Teaching material
------------------
+## Teaching material
 
 During my several years as teacher, examiner and course responsible I
 have developed a vast number of lectures, assignments (often in form of
@@ -414,8 +407,7 @@ necessary for the student to understand and learn corresponding
 terminology and language to have a meaningful conversation about the
 topics.
 
-Scholarship of Teaching and Learning
-------------------------------------
+## Scholarship of Teaching and Learning
 
 During my time as Adjunct and driver of the Cisco Networking Academy I
 attended in bi-monthly meetings with other Cisco Academies. Part of
@@ -434,8 +426,7 @@ of my courses where my students were given the task to select recent
 publications or given a selection of publications; to foster critical
 approach and scientific methods.
 
-Non Academic Pedagogical Activities
------------------------------------
+## Non Academic Pedagogical Activities
 
 I have been active in various pedagogical activities for other groups
 than students at the university in the following settings:
@@ -476,8 +467,7 @@ Expert panel
 :   --- I was invited as an expert on social media to a panel that took
     place at "Högskolan i Kristianstad" in April 2018.
 
-Other Pedagogical Merits
-------------------------
+## Other Pedagogical Merits
 
 During my time as Adjunct and driver of the Cisco Networking Academy did
 I attend in bi-monthly meetings with other Cisco Academies. Part of
@@ -487,10 +477,9 @@ meeting acted both as updates to the recent shifts in industry but also
 as forum for all the teachers withing the academy program in the
 southern part of Sweden.
 
+{%- comment %}
 
-{% comment %}
-Appendixes
-----------
+## Appendixes
 
 A1
 
