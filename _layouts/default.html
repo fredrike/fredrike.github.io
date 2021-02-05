@@ -53,6 +53,7 @@
       </header>
       <section>
       {{ content }}
+      Last updated at {{ page.last_modified_at | date: "%Y-%m-%d %H:%M"  }}.
       </section>
 {% include footer.html %}
   </body>
