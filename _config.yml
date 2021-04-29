@@ -29,6 +29,12 @@ defaults:
       type: "academia" # a collection in your site, in plural form
     values:
       layout: academia
+  -
+    scope:
+      path: ""
+      type: "posts" # a collection in your site, in plural form
+    values:
+      layout: post
 
 social:
     - icon: fab fa-twitter
@@ -52,6 +58,8 @@ share:
 urls:
     - text: Home
       url: /
+    - text: Posts
+      url: /posts/
     - text: Academia
       url: /academia/
     - text: Projects
