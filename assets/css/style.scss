@@ -38,22 +38,53 @@ header img {
   max-width: 260px;
 }
 
+@media print, screen and (max-width: 720px) {
+  header ul {
+    width: unset !important;
+    max-height: unset !important;
+  }
+}
+
 @media print, screen and (max-width: 960px) {
   header .social ul {
     position: inherit;
   }
 
   header ul.sidebar-nav {
-    width: 200px;
+    width: 280px;
+    max-height: 413px;
+    overflow: auto;
   }
   header ul.sidebar-nav ul {
     position: unset;
   }
 }
 
-@media print, screen and (max-height: 660px) {
+@media print, screen and (min-width: 960px) {
+  nav {
+    top: 500px;
+    bottom: 110px;
+    width: inherit;
+    position: fixed;
+    overflow-y: auto;
+  }
+}
+
+@media print, screen and (max-height: 880px) and (min-width: 960px) {
+  img { 
+    display: none; 
+  }
+  nav { 
+    top: 185px; 
+  }
+}
+
+@media print, screen and (max-height: 400px) {
   footer {
     display: none;
+  }
+  nav { 
+    bottom: 0px; 
   }
 }
 
