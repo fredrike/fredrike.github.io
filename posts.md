@@ -4,7 +4,7 @@ title: Posts
 collection: posts
 ---
 
-This is my latest posts.
+These are my latest posts.
 <ul>
   {% for post in site.posts %}
     <li>
