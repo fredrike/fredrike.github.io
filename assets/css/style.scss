@@ -38,6 +38,10 @@ header img {
   max-width: 260px;
 }
 
+footer {
+  bottom: 10px;
+}
+
 @media print, screen and (max-width: 720px) {
   header ul {
     width: unset !important;
@@ -63,7 +67,7 @@ header img {
 @media print, screen and (min-width: 960px) {
   nav {
     top: 500px;
-    bottom: 110px;
+    bottom: 60px;
     width: inherit;
     position: fixed;
     overflow-y: auto;
