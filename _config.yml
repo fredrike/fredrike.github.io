@@ -6,6 +6,9 @@ google_analytics: UA-13197481-5
 theme: jekyll-theme-minimal
 permalink: /:categories/:title/
 timezone: Europe/Stockholm
+author: Fredrik Erlandsson
+twitter:
+  username: fredrikerl
 
 collections:
   academia:
