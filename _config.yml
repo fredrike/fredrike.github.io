@@ -10,6 +10,10 @@ author: Fredrik Erlandsson
 twitter:
   username: fredrikerl
 
+url: "https://fredrike.github.io"
+plugins:
+  - jekyll-sitemap
+
 collections:
   academia:
     output: true
