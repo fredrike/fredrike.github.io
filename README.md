@@ -1,5 +1,6 @@
 ---
-last_modified_at: 2021-02-05 12:01:27 +0100
+last_modified_at: 2021-05-04 07:49:22 +0200
+title: Fredrik Erlandsson
 ---
 
 I am both a practitioner (both software and hardware vise) and theoretician. I am also result driven with details for high quality, e.g. for my thesis I have two published ISI-journal publications. This quality aim is also present in my teaching, where I in general also have high scores on the course evaluations of the vast number of courses I have taught over the years. Moreover I am easy-going and supportive, where I always find time to help my colleagues and friends with whatever problem they might have.
@@ -24,8 +25,14 @@ I worked in the Commercial Analytics team as a Data Scientist, making smart insi
 
 ### Consid AB 2020 ---
 
-I am currently working at Consid AB as a Data Scientist and my current assignment is at E.ON, Malmö. Where I work in the Digital Bussiness group as a Digital Analytics Specialist. Some of the work include:
+I am currently working at Consid AB as a Data Scientist.
 
-* Leading and execution of a site-wide user consent banner (GDPR) on eon.se.
-* Tagging user flows in Google Tag Manager for the eon.se site.
-* Building and maintaining user behaviour reports in Google Datastudio with site data from Google Analytics.
+#### Assignments
+
+* 2021 --- BI Specialist Boverket, Karlskrona.
+
+* 2020 -- 2021 E.ON, Malmö I worked in the Digital Bussiness group as a Digital Analytics Specialist. Some of the work included:
+
+  * Leading and execution of a site-wide user consent banner (GDPR) on eon.se.
+  * Tagging user flows in Google Tag Manager for the eon.se site.
+  * Building and maintaining user behaviour reports in Google Datastudio with site data from Google Analytics.
