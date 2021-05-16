@@ -23,34 +23,43 @@
           </ul>
         </div>
 
-        <nav>
-        <ul class="sidebar-nav">
+        <nav> <ul class="fa-ul">
           <strong>Navigation</strong>
           {%- for i in site.urls %}
-          <li>
-              {%- if i.url == page.url -%}
-                {{ i.text }}
+            {%- assign txt = i.text | downcase %}
+            {%- assign coll = "NO" %}
+            {%- if txt == page.collection %}
+              {%- assign coll = "YES" %}
+            <li><span class="fa-li"><i class="fa fa-minus-circle fa-xs"></i></span>
+            {%- else %}
+              {%- for collection in site.collections %}{% if txt == collection.label %}
+            <li><span class="fa-li"><i class="fa fa-plus-circle fa-xs"></i></span>
+              {%- assign coll = "YES"-%}
+              {% endif %}{% endfor %}
+            {%- endif %}{% if coll == "NO" %}
+            <li><span class="fa-li"><i class="fa fa-circle fa-xs"></i></span>
+            {%- endif -%}
+            {%- if i.url == page.url -%}
+              {{ i.text }}
+            {%- else -%}
+              <a class="about" href="{{ i.url | absolute_url}}">{{ i.text }}</a>
+            {%- endif -%}
+            {%- if txt == page.collection -%}
+            <ul style="margin: 0px 0px 0px -26px;">
+            {%- for j in site[page.collection] %}
+              <li>
+              {%- if j.url == page.url -%}
+                {{ j.title }}
               {%- else -%}
-                <a class="about" href="{{ i.url | absolute_url}}">{{ i.text }}</a>
+                <a class="about" href="{{ j.url | absolute_url }}">{{ j.title }}</a>
               {%- endif -%}
-              {%- assign txt = i.text | downcase %}
-              {%- if txt == page.collection %}
-                <ul style="margin: 0px 0px 0px -26px;">
-                {%- for j in site[page.collection] %}
-                  <li>
-                  {%- if j.url == page.url -%}
-                    {{ j.title }}
-                  {%- else -%}
-                    <a class="about" href="{{ j.url | absolute_url }}">{{ j.title }}</a>
-                  {%- endif -%}
-                  </li>
-                {%- endfor %}
-                </ul>
-              {%- endif -%}
+              </li>
+            {%- endfor %}
+            </ul>
+            {%- endif -%}
           </li>
           {%- endfor %}
-        </ul>
-      </nav>
+        </ul> </nav>
       </header>
       <section>
       {{ content }}
