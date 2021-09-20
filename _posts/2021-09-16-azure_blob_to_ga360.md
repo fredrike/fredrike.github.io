@@ -1,6 +1,6 @@
 ---
 title: Writing a file from Azure Blob to Google Analytics 360 with file upload
-last_modified_at: 2021-09-17 10:00:00 +0200
+last_modified_at: 2021-09-20 14:20:32 +0200
 
 ---
 
@@ -67,6 +67,16 @@ GA_SCOPE = "https://www.googleapis.com/auth/analytics.edit"
 GA_ACCOUNT_ID = ""
 GA_WEBPROPERTY_ID = ""
 GA_CUSTOM_DATA_SOURCE_ID = ""
+GA_LIST_URL = (
+    f"https://www.googleapis.com/analytics/v3/management/accounts/"
+    f"{GA_ACCOUNT_ID}/webproperties/{GA_WEBPROPERTY_ID}/customDataSources/"
+    f"{GA_CUSTOM_DATA_SOURCE_ID}/uploads"
+)
+GA_DELETE_URL = (
+    f"https://www.googleapis.com/analytics/v3/management/accounts/"
+    f"{GA_ACCOUNT_ID}/webproperties/{GA_WEBPROPERTY_ID}/customDataSources/"
+    f"{GA_CUSTOM_DATA_SOURCE_ID}/deleteUploadData"
+)
 GA_UPLOAD_URL = (
     f"https://www.googleapis.com/upload/analytics/v3/management/accounts/"
     f"{GA_ACCOUNT_ID}/webproperties/{GA_WEBPROPERTY_ID}/customDataSources/"
@@ -107,6 +117,27 @@ async def main(req: func.HttpRequest) -> func.HttpResponse:
         )
         status = ""
         async with ClientSession(connector=TCPConnector(limit=5)) as session:
+            async with session.get(
+                GA_LIST_URL,
+                params={
+                    "access_token": token,
+                },
+            ) as resp:
+                try:
+                    async with session.post(
+                        GA_DELETE_URL,
+                        json={
+                            "customDataImportUids": [
+                                item["id"] for item in (await resp.json())["items"]
+                            ]
+                        },
+                        params={
+                            "access_token": token,
+                        },
+                    ) as stat:
+                        logging.info("Removed UploadData with status %d", stat.status)
+                except KeyError:
+                    pass
             file_data = await blob_sender(
                     connection_string=secrets[BLOB_CONNECTION_STRING],
                     blob_name=FILE_NAME,
@@ -143,4 +174,4 @@ Don't forget to publish the updated function with:
 func azure functionapp publish ${FUNCTION_APP}
 ```
 
-Last modified at: 2021-09-17.
+Last modified at: 2021-09-20.
