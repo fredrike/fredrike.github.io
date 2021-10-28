@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2021-02-05 09:08:12 +0000
+last_modified_at: 2021-10-28 21:45:38 +0200
 title: Teaching Portfolio
 ---
 
@@ -239,12 +239,12 @@ supervised numerous student thesis works. Both at undergraduate level
 
 The following is a list of the thesises I have supervised.
 
-* Gustafsson J., and Törnkvist A. (2019), "Secure handling of encryption keys for small businesses - A comparative study of key management systems".
-* Björkman A., and Kardos M. (2019), "Threat Analysis of Smart Home Assistants Involving Novel Acoustic Based Attack-Vectors".
-* Tulek Z., and Arnell L. (2019), "Facebook Eavesdropping Through the Microphone for Marketing Purpose".
-* Gribing Arlfors C., and Nilsson S. (2019), "Tracking the cookies - A quantitative study on user perceptions about online tracking".
-* Güven V. (2018), "Patterns of malware and digital attacks".
-* Rylander J., and Moberg J. (2018), "Automated Key Rotations In a Continuous Deployment Pipeline".
+* Gustafsson J., and Törnkvist A. (2019), "[Secure handling of encryption keys for small businesses - A comparative study of key management systems](http://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Abth-18225)".
+* Björkman A., and Kardos M. (2019), "[Threat Analysis of Smart Home Assistants Involving Novel Acoustic Based Attack-Vectors](http://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Abth-18329)".
+* Tulek Z., and Arnell L. (2019), "[Facebook Eavesdropping Through the Microphone for Marketing Purpose](http://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Abth-18232)".
+* Gribing Arlfors C., and Nilsson S. (2019), "[Tracking the cookies - A quantitative study on user perceptions about online tracking](http://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Abth-18443)".
+* Güven V. (2018), "[Patterns of malware and digital attacks](http://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Abth-16313)".
+* Rylander J., and Moberg J. (2018), "[Automated Key Rotations In a Continuous Deployment Pipeline](http://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Abth-16696)".
 * Karlsson R. (2018), "Using the blockchain for botnet Command & Control".
 * Dimitriou J. (2017), "Hot or Not - Exploratory Study on Viral Content on Online Social Media".
 * Ekhator S. (2010), "Evaluating Kismet and NetStumbler as Network Security Tools & Solutions".
