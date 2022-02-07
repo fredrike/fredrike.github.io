@@ -1,6 +1,6 @@
 ---
 title: Installing pyodbc with Microsoft SQL Server driver on a M1 Mac
-last_modified_at: 2022-02-07 13:46:39 +0100
+last_modified_at: 2022-02-07 13:47:12 +0100
 ---
 
 The following is a breif scratchpad on the steps taken to install and get pyodbc to work with a Microsoft SQL Server connection on a M1 Mac.

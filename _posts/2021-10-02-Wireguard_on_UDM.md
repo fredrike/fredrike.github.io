@@ -1,6 +1,6 @@
 ---
 title: Benchmarks of running Wireguard on an Ubiquti Dream Machine (UDM)
-last_modified_at: 2022-02-07 15:05:27 +0100
+last_modified_at: 2022-02-07 15:06:04 +0100
 ---
 
 Install instructions and benchmarks of running Wireguara on an Ubiquti Dream Machine.
