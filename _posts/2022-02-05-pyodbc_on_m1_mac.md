@@ -1,6 +1,6 @@
 ---
 title: Installing pyodbc with Microsoft SQL Server driver on a M1 Mac
-last_modified_at: 2022-02-07 12:20:41 +0100
+last_modified_at: 2022-02-07 13:46:39 +0100
 ---
 
 The following is a breif scratchpad on the steps taken to install and get pyodbc to work with a Microsoft SQL Server connection on a M1 Mac.
@@ -32,3 +32,5 @@ rm -rf $(brew --prefix)/opt/openssl
 version=$(ls $(brew --prefix)/Cellar/openssl@1.1 | grep "1.1")
 ln -s $(brew --prefix)/Cellar/openssl@1.1/$version $(brew --prefix)/opt/openssl
 ```
+
+After the installation of pyodbc and fixing issues with openssl the guide from Microsoft, [Proof of concept connecting to SQL using pyodbc](https://docs.microsoft.com/en-us/sql/connect/python/pyodbc/step-3-proof-of-concept-connecting-to-sql-using-pyodbc), worked fine.
