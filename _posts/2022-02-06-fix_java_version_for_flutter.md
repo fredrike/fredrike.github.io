@@ -1,6 +1,6 @@
 ---
 title: Fix java version for Flutter
-last_modified_at: 2022-02-07 13:46:39 +0100
+last_modified_at: 2022-02-07 15:17:57 +0100
 ---
 
 I had some issues with building Android applications in Flutter. With the following as error message:
@@ -52,4 +52,4 @@ Et volià `✓  Built build/app/outputs/flutter-apk/app-release.apk (46.0MB).`.
 
 References:
 
- * https://www.yippeecode.com/topics/upgrade-to-openjdk-temurin-using-homebrew/
+* [Upgrade to OpenJDK Temurin using Homebrew](https://www.yippeecode.com/topics/upgrade-to-openjdk-temurin-using-homebrew/)
