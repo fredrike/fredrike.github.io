@@ -1,24 +1,28 @@
 ---
 title: Benchmarks of running Wireguard on an Ubiquti Dream Machine (UDM)
-last_modified_at: 2021-10-02 16:49:20 +0200
+last_modified_at: 2022-02-07 15:05:27 +0100
 ---
 
-Lorum ipsum.
+Install instructions and benchmarks of running Wireguara on an Ubiquti Dream Machine.
 
-Install Wireguard.
+## Install Wireguard
 
 ```console
-# curl -LJo wireguard-kmod.tar.Z https://github.com/tusc/wireguard-kmod/releases/download/v8-10-21/wireguard-kmod-08-10-21.tar.Z
+$ curl -LJo wireguard-kmod.tar.Z https://github.com/tusc/wireguard-kmod/releases/download/v8-10-21/wireguard-kmod-08-10-21.tar.Z
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100   637  100   637    0     0   2266      0 --:--:-- --:--:-- --:--:--  2266
 100 2617k  100 2617k    0     0  3032k      0 --:--:-- --:--:-- --:--:-- 5091k
-# tar -C /mnt/data -xzf wireguard-kmod.tar.Z
-# cd /mnt/data/wireguard
-# chmod +x setup_wireguard.sh
-# ./setup_wireguard.sh
+$ tar -C /mnt/data -xzf wireguard-kmod.tar.Z
+$ cd /mnt/data/wireguard
+$ chmod +x setup_wireguard.sh
+$ ./setup_wireguard.sh
 loading wireguard...
 ```
+
+## Fix cni, for ipref3
+
+Create `10-cni-setup.sh` (end with ctrl-d).
 
 ```sh
 cat > /mnt/data/on_boot.d/10-cni-setup.sh
@@ -40,25 +44,29 @@ do
     ln -s "$file" "/etc/cni/net.d/$(basename "$file")"
 fi
 done
-````
-
 ```
-# chmod +x /mnt/data/on_boot.d/10-cni-setup.sh
-# /mnt/data/on_boot.d/10-cni-setup.sh
+
+Run the created file.
+
+```sh
+$ chmod +x /mnt/data/on_boot.d/10-cni-setup.sh
+$ /mnt/data/on_boot.d/10-cni-setup.sh
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100   640  100   640    0     0   2237      0 --:--:-- --:--:-- --:--:--  2237
 100 33.0M  100 33.0M    0     0  8492k      0  0:00:03  0:00:03 --:--:-- 10.3M
 ```
 
-Start Docker container with iperf3.
+## Start Docker container with iperf3
 
 ```sh
 docker run  -it --rm --name=iperf3-server \
   -p 5201:5201 -p 5201:5201/udp taoyou/iperf3-alpine:latest
 ```
 
-```
+## Performace output from iperf3
+
+```txt
 -----------------------------------------------------------
 Server listening on 5201
 -----------------------------------------------------------
@@ -103,4 +111,3 @@ Accepted connection from 192.168.1.126, port 51169
 Server listening on 5201
 -----------------------------------------------------------
 ```
-
