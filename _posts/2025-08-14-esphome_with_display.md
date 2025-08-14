@@ -33,20 +33,17 @@ i2c:
 For the sensor the example config looks like this:
 
 ```yaml
-sensor:
   - platform: bmp280_i2c
+    address: 0x76
     temperature:
+      name: "BMP280 Temperature"
       id: bmp280_temperature
-      name: "Temperature"
-      oversampling: 16x
     pressure:
+      name: "BMP280 Pressure"
       id: bmp280_pressure
-      name: "Pressure"
-    address: 0x77
-    update_interval: 60s
 ```
 
-For the display we first must define a font:
+For the display we first must define fonts:
 
 ```yaml
 font:
@@ -54,6 +51,12 @@ font:
       type: gfonts
       family: Roboto
       weight: 900
+    id: roboto
+    size: 20
+
+  - file:
+      type: gfonts
+      family: Roboto
     id: roboto_16
     size: 16
 ```
@@ -66,7 +69,7 @@ display:
     model: "SH1106 128x64"
     address: 0x3C
     lambda: |-
-      it.print(0, 0, id(roboto_16), "Hello World!");
+      it.print(0, 0, id(roboto), "Hello World!");
 ```
 
 What we like to do is update the display whenever our sensor updates..
@@ -80,16 +83,16 @@ display:
     model: "SH1106 128x64"
     address: 0x3C
     lambda: |-
-      it.printf(0, 12, id(roboto_16), TextAlign::TOP_LEFT, "Temperature");
+      it.print(0, 0, id(roboto_16), "Temp / Pressure");
 
       // Print temperature
       if (id(bmp280_temperature).has_state()) {
         it.printf(
           127,
           23,
-          id(roboto_16),
+          id(roboto),
           TextAlign::TOP_RIGHT,
-          "%.1f",
+          "%.1f °C",
           id(bmp280_temperature).state
         );
       }
@@ -99,9 +102,9 @@ display:
         it.printf(
             127,
             60,
-            id(roboto_16),
+            id(roboto),
             TextAlign::BASELINE_RIGHT,
-            "%.1f",
+            "%.1f hPa",
             id(bmp280_pressure).state
         );
       }
