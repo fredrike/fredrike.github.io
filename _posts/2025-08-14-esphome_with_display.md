@@ -25,8 +25,8 @@ SPI setup:
 
 ```yaml
 i2c:
-  sda: GPIO4
-  scl: GPIO5
+  sda: D1
+  scl: D2
   scan: true
 ```
 
