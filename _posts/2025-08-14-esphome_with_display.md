@@ -1,6 +1,6 @@
 ---
 title: Building a environment sensor with a display using D1-mini and ESPHome
-last_modified_at: 2025-08-14 09:56:55 +0200
+last_modified_at: 2025-08-14 09:57:54 +0200
 ---
 
 A fun exercise to getting to know some hardware is to start with ESP8266 and in particular Wemos D1-mini. In this post I show how to build an environment sensor (with temperature and pressure) that shows the result on a display.
@@ -72,6 +72,7 @@ display:
 What we like to do is update the display whenever our sensor updates..
 <details>
   <summary>yaml for updating display dynamically</summary>
+
 ```yaml
 display:
   - platform: ssd1306_i2c
@@ -105,6 +106,7 @@ display:
         );
       }
 ```
+
 </details>
 
 
