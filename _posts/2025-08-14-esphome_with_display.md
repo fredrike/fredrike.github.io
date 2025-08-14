@@ -1,6 +1,6 @@
 ---
 title: Building a environment sensor with a display using D1-mini and ESPHome
-last_modified_at: 2025-08-14 09:00:00 +0100
+last_modified_at: 2025-08-14 09:52:23 +0200
 ---
 
 A fun exercise to getting to know some hardware is to start with ESP8266 and in particular Wemos D1-mini. In this post I show how to build an environment sensor (with temperature and pressure) that shows the result on a display.
@@ -36,9 +36,11 @@ For the sensor the example config looks like this:
 sensor:
   - platform: bmp280_i2c
     temperature:
+      id: bmp280_temperature
       name: "Temperature"
       oversampling: 16x
     pressure:
+      id: bmp280_pressure
       name: "Pressure"
     address: 0x77
     update_interval: 60s
@@ -68,5 +70,42 @@ display:
 ```
 
 What we like to do is update the display whenever our sensor updates..
+<details>
+  <summary>yaml for updating display dynamically</summary>
+```yaml
+display:
+  - platform: ssd1306_i2c
+    model: "SH1106 128x64"
+    reset_pin: GPIOXX
+    address: 0x3C
+    lambda: |-
+      it.printf(0, 12, id(roboto_16), TextAlign::TOP_LEFT, "Temperature");
+
+      // Print temperature
+      if (id(bmp280_temperature).has_state()) {
+        it.printf(
+          127,
+          23,
+          id(roboto_16),
+          TextAlign::TOP_RIGHT,
+          "%.1f",
+          id(bmp280_temperature).state
+        );
+      }
+
+      // Print pressure
+      if (id(bmp280_pressure).has_state()) {
+        it.printf(
+            127,
+            60,
+            id(roboto_16),
+            TextAlign::BASELINE_RIGHT,
+            "%.1f",
+            id(bmp280_pressure).state
+        );
+      }
+```
+</details>
+
 
 Final code: [ESPHome.yaml](https://gist.github.com/fredrike/6f230d2e828717db8960e6e7e9e4dbf8)
