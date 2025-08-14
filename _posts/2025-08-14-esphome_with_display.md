@@ -1,6 +1,6 @@
 ---
 title: Building a environment sensor with a display using D1-mini and ESPHome
-last_modified_at: 2025-08-14 10:28:05 +0200
+last_modified_at: 2025-08-14 10:29:30 +0200
 ---
 
 A fun exercise to getting to know some hardware is to start with ESP8266 and in particular Wemos D1-mini. In this post I show how to build an environment sensor (with temperature and pressure) that shows the result on a display.
@@ -19,7 +19,7 @@ As both BMP280 and the OLED display is using I2C for communication, the wiring i
 
 Just make sure to connect SDA to GPIO4 and SDC to GPIO5 and provide GND and Vcc.
 
-To keep programming to a minimum we are using [ESPHome](https://esphome.io/), a framework that instead of coding uses yaml config. Both the [BMP280 sensor](https://esphome.io/components/sensor/bmp280.html) and the [OLED display](https://esphome.io/components/display/ssd1306.html) have native support in ESPHome.
+To keep programming to a minimum we are using [ESPHome](https://esphome.io/), a framework that instead of coding uses `yaml` config. Both the [BMP280 sensor](https://esphome.io/components/sensor/bmp280.html) and the [OLED display](https://esphome.io/components/display/ssd1306.html) have native support in ESPHome.
 
 SPI setup:
 
@@ -72,7 +72,7 @@ display:
 What we like to do is update the display whenever our sensor updates..
 
 <details markdown="1">
-  <summary markdown="1">`yaml` for updating display dynamically</summary>
+  <summary>yaml for updating display dynamically</summary>
 
 ```yaml
 display:
